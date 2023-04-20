@@ -149,12 +149,8 @@ background-color: #000000;
     font-family: Lucida Console;
     font-size: 28px;
     color: #fff;
-    transition: transform 0.2s ease-in-out;
 }
 
-.about-col-2 p:hover {
-    transform: scale(1.2);
-}
 .tab-titles{
 
   
