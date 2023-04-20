@@ -550,9 +550,12 @@ nav .icon{
     .contact-left, .contact-right{
         flex-basis: 100%;
     }
-    .copyright{
-        font-size: 14px;
+    .about-col-2 p {
+        font-family: Lucida Console;
+        font-size: 15px;
+        color: #fff;
     }
+ 
 }
 #msg{
     color: #61b752;
