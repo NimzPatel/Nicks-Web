@@ -189,8 +189,9 @@ background-color: #000000;
     margin: 10px 0;
 }
 .tab-contents ul li span{
-    color: #fafafa;
-    font-size: 14px;
+    color: #ec5c5c;
+    font-size: 20px;
+
 }
 .tab-contents{
     display: none;
@@ -443,7 +444,7 @@ form .btn2{
 footer {
   width: 100%;
   background: #000000;
-  color: #ffffff;
+  color: #fff;
   font-weight: 300;
   padding: 25px 0;
 }
@@ -555,15 +556,6 @@ nav .icon{
         font-size: 15px;
         color: #fff;
     }
-
-    footer {
-        width: 100%;
-        background: #000000;
-        color: #ffffff;
-        font-weight: 300;
-        font-size: 12px;
-        padding: 25px 0;
-      }
  
 }
 #msg{
