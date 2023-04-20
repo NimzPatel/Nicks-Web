@@ -137,17 +137,24 @@ background-color: #000000;
 
     flex-basis: 35%;
 }
-.about-col-1 img{
+.about-col-1 img {
     width: 100%;
     border-radius: 15px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-col-1 img:hover {
+    transform: scale(1.15);
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
 }
 
 .about-col-2{
     flex-basis: 60%;
 }
 .about-col-2 p {
-    font-family: Lucida Console;
-    font-size: 28px;
+    font-family: Bahnschrift;
+    font-size: 26px;
     color: #fff;
 }
 
@@ -160,7 +167,7 @@ background-color: #000000;
 
 .tab-titles p{
     font-family: cursive;
-    color: #918f8f;
+    color: #ee5656;
 }
 .tab-links{
     margin-right: 60px;
@@ -422,7 +429,7 @@ form input, form textarea{
     background: #ffffff;
     padding: 15px;
     margin: 15px 0;
-    color: #fdfdfd;
+    color: #020202;
     font-size: 18px;
     border-radius: 6px;
 }
@@ -486,7 +493,11 @@ footer {
 }
 
 
-
+#msg{
+    color: #61b752;
+    margin-top: -70px;
+    display: block;
+}
 
 
 /* -----------------css for small screens--------- */
@@ -556,10 +567,11 @@ nav .icon{
         font-size: 15px;
         color: #fff;
     }
+
+    #msg{
+        color: #61b752;
+        margin-top: -70px;
+        display: block;
+    }
  
-}
-#msg{
-    color: #61b752;
-    margin-top: -40px;
-    display: block;
 }
