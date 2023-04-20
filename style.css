@@ -442,8 +442,8 @@ form .btn2{
 
 footer {
   width: 100%;
-  background: #262626;
-  color: #fff;
+  background: #000000;
+  color: #ffffff;
   font-weight: 300;
   padding: 25px 0;
 }
@@ -555,6 +555,15 @@ nav .icon{
         font-size: 15px;
         color: #fff;
     }
+
+    footer {
+        width: 100%;
+        background: #000000;
+        color: #ffffff;
+        font-weight: 300;
+        font-size: 12px;
+        padding: 25px 0;
+      }
  
 }
 #msg{
