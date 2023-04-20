@@ -494,14 +494,14 @@ nav .icon{
 }
 
 @media only screen and (max-width: 885px){
-    #header{
-        background-image: url(items/images/phone-background.png);
+    #home{
+        background-image: url(items/images/phone.png);
     }
-    .header-text{
+    .home-text{
         margin-top: 100%;
         font-size: 16px;
     }
-    .header-text h1{
+    .home-text h1{
         font-size: 30px;
     }
     nav .icon{
