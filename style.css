@@ -29,7 +29,7 @@ nav {
     left: 0;
     right: 0;
     z-index: 9999;
-    background-color: #ffffff;
+    background-color: #ffffffd5;
     padding: 10px 20px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -58,7 +58,7 @@ nav ul li a::after {
     content: "";
     width: 0;
     height: 3px;
-    background: #e9c422;
+    background: #1f1729;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -94,7 +94,7 @@ nav ul li a:hover::after {
 
 /* -----------about--------------- */
 #about {
-    background-color: #000000;
+    background: linear-gradient(to bottom, #301e43, #150c1d);
     padding: 80px 0;
     color: #f1f1f1;
 }
@@ -105,7 +105,7 @@ nav ul li a:hover::after {
     margin-top: 70px;
     font-size: 60px;
     font-weight: 600;
-    color: #e9c422;
+    color: #dfcefd;
     font-family: Bahnschrift;
     transition: transform 0.3s ease-in-out;
 }
@@ -145,7 +145,7 @@ nav ul li a:hover::after {
 .about-col-2 p {
     font-family: Bahnschrift;
     font-size: 26px;
-    color: #fff;
+    color: #dfced2;
 }
 
 .tab-titles {
@@ -155,7 +155,7 @@ nav ul li a:hover::after {
 
 .tab-titles p {
     font-family: Bahnschrift;
-    color: #ffffff;
+    color: #dfcefd;
 }
 .tab-links {
     margin-right: 60px;
@@ -168,7 +168,7 @@ nav ul li a:hover::after {
     content: "";
     width: 0;
     height: 3px;
-    background: #e9c422;
+    background: #fdfdfd;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -196,16 +196,17 @@ nav ul li a:hover::after {
 
 /* ----------------project------------- */
 #project {
-    background-color: #000000;
+    background: linear-gradient(to bottom, #150c1d, #301e43);
     padding: 30px 0;
 }
+
 
 .sub-project {
     margin-top: 70px;
     font-size: 60px;
     text-align: center;
     font-weight: 600;
-    color: #e9c422;
+    color: #dfcefd;
     font-family: Bahnschrift;
     transition: transform 0.3s ease-in-out;
 }
@@ -224,7 +225,7 @@ nav ul li a:hover::after {
     margin-top: 50px;
 }
 .project-list div {
-    background: #303030;
+    background: #150c1d;
     padding: 40px;
     font-size: 13px;
     font-weight: 300;
@@ -253,12 +254,13 @@ nav ul li a:hover::after {
 }
 
 .project-list div:hover {
-    background: #e9c422;
+    background: #301e43;
     transform: translateY(-10px);
 }
 /* -------work----------- */
 #work {
-    background-color: #000000;
+    background: linear-gradient(to bottom, #301e43, #150c1d);
+
     padding: 60px 0;
 }
 .sub-work {
@@ -266,7 +268,7 @@ nav ul li a:hover::after {
     font-size: 60px;
     font-weight: 600;
     text-align: center;
-    color: #e9c422;
+    color: #dfcefd;
     font-family: Bahnschrift;
     text-underline-offset: 8px;
     transition: transform 0.3s ease-in-out;
@@ -330,7 +332,7 @@ nav ul li a:hover::after {
 
 /* ---------contact-------- */
 #contact {
-    background-color: #000000;
+    background: linear-gradient(to bottom, #150c1d, #301e43);
     padding: 80px 0;
 }
 .sub-contact {
@@ -340,7 +342,7 @@ nav ul li a:hover::after {
     text-align: center;
     margin-bottom: 70px;
     font-weight: 600;
-    color: #e9c422;
+    color: #dfcefd;
     transition: font-size 0.3s ease-in-out;
 }
 
@@ -446,8 +448,8 @@ form .btn2 {
 
 footer {
     width: 100%;
-    background: #fffefe;
-    color: #000000;
+    background: #150c1d;
+    color: #dfcefd;
     font-weight: 300;
     padding: 25px 0;
 }
