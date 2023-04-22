@@ -163,6 +163,11 @@ nav ul li a:hover::after {
     font-weight: 500;
     cursor: pointer;
     position: relative;
+    transition: transform 0.3s ease-in-out;
+}
+
+.tab-links:hover {
+    transform: scale(1.1);
 }
 .tab-links::after {
     content: "";
@@ -184,7 +189,7 @@ nav ul li a:hover::after {
     margin: 10px 0;
 }
 .tab-contents ul li span {
-    color: #e9c422;
+    color: #dfcefd;
     font-size: 20px;
 }
 .tab-contents {
