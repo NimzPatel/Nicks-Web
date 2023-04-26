@@ -91,7 +91,27 @@ nav ul li a:hover::after {
 .home-text h1 span {
     color: #e9c422;
 }
+.btn {
+    margin-top: 50px;
+    display: inline-block;
+    background: #dfcefd;
+    text-decoration: none;
+    border: none;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 0 30px 0 rgba(255, 255, 255, 0.1);
 
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+.btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(252, 249, 249, 0.3);
+    border: none;
+}
 /* -----------about--------------- */
 #about {
     background: linear-gradient(to bottom, #301e43, #150c1d);
@@ -392,30 +412,10 @@ nav ul li a:hover::after {
 .social-icons a:hover {
     transform: translateY(-5px);
 }
-.btn {
-    margin-top: 50px;
-    display: inline-block;
-    background: #dfced2;
-    text-decoration: none;
-    border: none;
-    padding: 12px 24px;
-    font-size: 18px;
-    font-weight: bold;
-    color: #000000;
-    cursor: pointer;
-    border-radius: 10px;
-    box-shadow: 0 0 30px 0 rgba(255, 255, 255, 0.1);
 
-    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-}
-.btn:hover {
-    transform: scale(1.1);
-    box-shadow: 0 0 10px rgba(252, 249, 249, 0.3);
-    border: none;
-}
 .btn.btn2 {
     display: inline-block;
-    background: #dfced2;
+    background: #dfcefd;
     border: none;
     padding: 12px 24px;
     font-size: 18px;
@@ -521,18 +521,24 @@ nav .icon {
         background-image: url(items/images/phone.png);
     }
     .home-text {
-        margin-top: 100%;
+        margin-top: 80%;
         font-size: 16px;
     }
     .home-text h1 {
         font-size: 30px;
     }
+
+    .home btn {
+        font-size: 10px;
+
+    }
+
     nav .icon {
         display: block;
         font-size: 25px;
     }
     nav ul {
-        background: #e9c422;
+        background: linear-gradient(to bottom, #ffffff, #5e3877);
         position: fixed;
         top: 0;
         right: -200px;
@@ -554,6 +560,8 @@ nav .icon {
         left: 25px;
         cursor: pointer;
     }
+
+
     .sub-title {
         font-size: 40px;
     }
