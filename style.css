@@ -538,7 +538,7 @@ nav .icon {
         font-size: 25px;
     }
     nav ul {
-        background: linear-gradient(to bottom, #ffffff, #5e3877);
+        background: linear-gradient(to bottom, #e6e228, #e6e228);
         position: fixed;
         top: 0;
         right: -200px;
